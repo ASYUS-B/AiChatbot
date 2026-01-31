@@ -40,7 +40,7 @@ export const CONFIG: AppConfig = {
     name: "AI Chat",
     title: "AI Chat - Powered by OpenRouter",
     description: "A simple and powerful AI chat application with support for multiple models and providers",
-    author: "Your Name",
+    author: "Jay Bohol",
     version: "1.0.0",
     url: process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000",
     logo: "/logo.svg",
@@ -49,7 +49,7 @@ export const CONFIG: AppConfig = {
   },
   // API Keys - Add your keys here or via environment variables
   apiKeys: [
-    "sk-or-v1-XXXXXXXXXXXXXXXXXXXXXXX", // OpenRouter API Key
+    "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", // OpenRouter API Key
     // "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxx", // Another API Key
     // Add more keys as needed
   ].filter(Boolean),
